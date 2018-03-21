@@ -1,0 +1,131 @@
+body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}
+
+#navigation{
+    padding:0.7rem;
+    position:relative;
+    z-index:1;
+    overflow: hidden;
+}
+
+.logo{
+    height: 80px;
+    width:auto;
+}
+
+#myVideo {
+    backface-visibility:hidden;
+    background-size:cover;
+    bottom:0;
+    height:100%;
+    width: auto;
+    perspective:1000;
+    position:fixed;
+    right:0;
+    opacity: 0.7;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-width: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+header.masthead {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #343a40;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+}
+
+.form-section{
+    margin: 7px;
+}
+
+header.masthead .overlay{
+    position:absolute;
+    background-color:#212529;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:.3;
+}
+
+header.masthead h1{font-size:2rem}@media (min-width:768px){header.masthead{padding-top:12rem;padding-bottom:12rem}header.masthead h1{font-size:3rem}}
+
+.showcase{
+    padding:0.7rem;
+    position:relative;
+    z-index:1;
+}
+
+.showcase .showcase-text{padding:3rem}
+
+.showcase .showcase-img{min-height:30rem;background-size:cover}
+
+@media (min-width:768px){.showcase .showcase-text{padding:7rem}}
+
+.security-camera{
+    color: blue;
+    fill: currentColor;
+    width: 100px; 
+    height:100px;
+    padding: 10px;  
+}
+
+.security-camera:hover {
+    border-radius: 100%;
+    color: FFFFFF;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.facial-recognition {
+    color: blue;
+    fill: currentColor;
+    width: 110px; 
+    height:110px;
+    padding: 10px;
+}
+.facial-recognition:hover {
+    border-radius: 100%;
+    color: FFFFFF;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.features-icons{
+    position:relative;
+    z-index:1;
+}
+
+.features-icons .features-icons-item{max-width:20rem}.features-icons .features-icons-item .features-icons-icon{height:7rem}.features-icons .features-icons-item .features-icons-icon i{font-size:4.5rem}.features-icons .features-icons-item:hover .features-icons-icon i{font-size:5rem}.testimonials{padding-top:7rem;padding-bottom:7rem}.testimonials .testimonial-item{max-width:18rem}.testimonials .testimonial-item img{max-width:12rem;box-shadow:0 5px 5px 0 #adb5bd}.call-to-action{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:7rem;padding-bottom:7rem}.call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+
+.footer{
+    position:relative;
+    z-index:1;
+}
+
+footer.footer{padding-top:4rem;padding-bottom:4rem}
